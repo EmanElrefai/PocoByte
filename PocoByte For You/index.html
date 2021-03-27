@@ -69,8 +69,8 @@
             <li><i class="ri-check-line"></i><h6>PocoByte helps you to overcome connectivity issues during Video Conferencing</h6></li>
           </ul>
           <div class="mt-3">
-            <a href="#about" class="btn-get-started scrollto">Create a meeting</a>
-            <a href="" class="btn-get-quote">Join a meeting</a>
+            <a href="http://localhost:3000/index.html" class="btn-get-started scrollto" target="_blank">Create a meeting</a>
+            <a href="http://localhost:3000/index2.html" class="btn-get-quote" target="_blank">Join a meeting</a>
             <a href="" class="btn-get-app">Download PocoByte</a>
           </div>
         </div>
@@ -165,20 +165,30 @@
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
                     <div class="icon">
-                      <img src="https://img.icons8.com/nolan/96/communication.png"/>
-                      <h4><a href="">Source Image</a></h4>
+                      <img src="assets/img/source_image.png" class = "img_"/>
+                      <h5> Source<br>Image</h5>
                     </div>
                  
                     <div class="icon">
-                      <img src="https://img.icons8.com/nolan/96/communication.png"/>
-                      <h4><a href="">Input</a></h4>
+                      <video width="100" height="100" autoplay muted loop>
+                        <source src="assets/img/original.mp4" type="video/mp4">
+                      </video>
+                      <h5> Input</h5>
                     </div>
 
                     <div class="icon">
-                      <img src="https://img.icons8.com/nolan/96/communication.png"/>
-                      <h4><a href="">Output</a></h4>
+                      <video width="100" height="100" autoplay muted loop>
+                        <source src="assets/img/FOMM.mp4" type="video/mp4">
+                      </video>
+                      <h5> Output<br>BaseLine<br>(FOMM)</h5>
                     </div>
-                    
+                    <br>
+                    <div class="icon">
+                        <video width="100" height="100" autoplay muted loop>
+                          <source src="assets/img/H.264.mp4" type="video/mp4">
+                        </video>
+                      <h5> Output<br>H.264</h5>
+                    </div>                   
                 </div>
               </div>
             </div><!-- End .content-->
@@ -286,13 +296,6 @@
             <a data-toggle="collapse" class="" href="#faq1"> What is the service you offer? <i class="icofont-simple-up"></i></a>
             <div id="faq1" class="collapse show" data-parent=".faq-list">
               <p> We offer a video conference application with high quality and low internet consumption.</p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed"> How much internet can I save using PocoByte? <i class="icofont-simple-up"></i></a>
-            <div id="faq2" class="collapse" data-parent=".faq-list">
-              <p> You can save about 88% of data if using a normal video conference without any compression methods.</p>
             </div>
           </li>
 
