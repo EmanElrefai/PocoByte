@@ -6,5 +6,6 @@
     - Paper:https://aliaksandrsiarohin.github.io/first-order-model-website/
   - Bilayer
     - Paper:https://arxiv.org/abs/2008.10174
+  - We still research for better baselines
 - **Meeting App**: User interface(Website)
 - **Notebook**: showcase of how Proof of concept were Implemented.
