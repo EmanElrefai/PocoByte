@@ -1,8 +1,8 @@
 # PocoByte Implmentation for video converancing platform
 ![Poco](https://drive.google.com/uc?export=view&id=1zOYoctOgaU3xeV7ours-zLlsiQgGot1b)
 ## Content:
-- **BaseLine**: Main Algorithms of core Architecture
-- This the current baseLine and we are researching for better baselines
+- **BaseLine**: Main Algorithms of core Architecture 
+  - This the current baseLine and we are researching for better baselines
   - FOMM
   - Bilayer
 - **PocoByte For You**: User interface(Website)
