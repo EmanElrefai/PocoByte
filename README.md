@@ -1,12 +1,10 @@
 # PocoByte Implmentation for video converancing platform
 ![Poco](https://drive.google.com/uc?export=view&id=1zOYoctOgaU3xeV7ours-zLlsiQgGot1b)
 ## Content:
-- **Main Current BaseLine**: Main Algorithms of core Architecture
+- **BaseLine**: Main Algorithms of core Architecture
+- This the current baseLine and we are researching for better baselines
   - FOMM
-    - Paper:https://aliaksandrsiarohin.github.io/first-order-model-website/
   - Bilayer
-    - Paper:https://arxiv.org/abs/2008.10174
-  - We still research for better baselines
 - **PocoByte For You**: User interface(Website)
   - index.html: main website page
 - **PocoByte Meeting App**: video conference based on webrtc and firebase utilizing this repo
@@ -14,3 +12,17 @@
   - index.html: "create a call" page
   - index2.html: "join a call" page
 - **Notebook**: showcase of how Proof of concept were Implemented.
+# Evaluation:(proof of concept)
+We made an experiment to compare between our baseline and H.264 codec We used video of 10 sec with 256x256 
+resolution and the original size was 34.44Mb and after processing to our model and h264 we got videos with this sizes 
+|            | Original  | BaseLine  | H.264 |
+| :---:      |  :-:      | :-:       | :-:   |
+| Resolution | 256x256   | 256x256   | 256x256|
+| size       | 34.44Mb       | 87.69Kb       | 87.69Kb   |
+
+- crf=32 compression ratio about 2.4% which is minmal for video quality.
+
+# Refrences:
+  - https://aliaksandrsiarohin.github.io/first-order-model-website/
+  - https://arxiv.org/abs/2008.10174
+
